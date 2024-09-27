@@ -1,0 +1,148 @@
+*{
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* input[name = 'language'] {
+  height: 10px;
+} */
+
+body{ 
+
+  margin: 0; 
+  background: #e5eaf5;
+}
+
+h1 {
+  /* text-align: center; */
+  color: #424867;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+/* select{
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+select::-ms-expand {
+  display: none;
+} */
+
+.customSelect {
+  /* width: 100%; */
+  width: fit-content; 
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  /* padding: 0.25em 0.5em; */
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+
+
+.container {
+  max-width: 600px;
+  margin: 32px auto;
+  background-color: #fff;
+  padding: 16px 32px;
+  box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.2);
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.container textarea {
+  padding: 16px;
+  font-size: 20px;
+  height: 140px;
+  resize: none;
+  line-height: 1.7;
+  border: 2px solid #023047;
+}
+
+.container button {
+  padding: 8px;
+  font-size: 20px;
+  border: none;
+  background-color: #8458B3;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.translation {
+  padding: 12px 32px;
+  background: #edf2f4;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.7;
+  height: 140px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.copy-btn {
+  position: absolute;
+  width: 20px;
+  top: 12px;
+  right: 12px;
+  opacity: 0.7;
+  cursor: pointer;
+
+}
+
+.notification {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100px);
+  background: #424867;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  transition: all 400ms ease;
+}
+
+.notification.active {
+  transform: translate(-50%, -30px);
+}
+
+.error {
+  color: red;
+}
+
+input {
+  font-size: 16px;
+  color: #333;
+  padding: 8px; 
+  border: 2px solid #424867;
+  background-color: #fff;
+}
+
+.langLabel {
+  padding: 8px 0 8px 0; 
+  font-size: 18px;
+  color: #424867;
+
+}
