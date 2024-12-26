@@ -12,4 +12,5 @@ This is a simple translator app that utilizes the OpenAI API to translate the gi
 
 - **Frontend**: React
 - **API**: OpenAI API
+- **Backend**: JavaScript
 
